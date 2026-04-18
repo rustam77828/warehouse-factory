@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    padding: 12px 24px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-excel { background: #217346; }
+.btn-set   { background: #4CAF50; }
+.btn-not   { background: #FF9800; }
+
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#timeInfo {
+    margin-top: 10px;
+    color: #666;
+    font-size: 1.1em;
+}

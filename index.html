@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Warehouse 2 - Factory Logs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>📦 Warehouse 2: Factory Logs</h1>
+
+<input type="text" id="coilInput" placeholder="Номер рулона">
+<br>
+
+<div id="controls">
+    <input type="date" id="dateFrom">
+    <input type="date" id="dateTo">
+    <button class="btn-excel" onclick="downloadExcel()">📊 Excel</button>
+    <button class="btn-set" onclick="sendLog('complete')">✅ SET</button>
+    <button class="btn-not" onclick="sendLog('partial')">⏳ Not finished</button>
+</div>
+
+<div id="status"></div>
+<div id="timeInfo"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
